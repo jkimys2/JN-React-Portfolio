@@ -1,10 +1,8 @@
 // Import dependencies
-import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { createBroweserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Import files/components
 import App from "./App.jsx";
@@ -15,7 +13,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import Resume from "./components/Resume.jsx";
 
 // Define accessible routes and which components respond to which URL
-const router = createBroweserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,

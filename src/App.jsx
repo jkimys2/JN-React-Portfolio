@@ -1,13 +1,16 @@
+// Import dependencies/components
 import "./App.css";
-import About from "./components/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Outlet } from "react-router-dom";
+import Nav from "./components/NavTabs";
 
 function App() {
   return (
     <>
-      <div>
-        <About />
-      </div>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
     </>
   );
 }
