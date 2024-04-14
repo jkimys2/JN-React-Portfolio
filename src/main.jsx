@@ -10,6 +10,7 @@ import { createBroweserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
+import Error from "./components/Error.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Resume from "./components/Resume.jsx";
 
