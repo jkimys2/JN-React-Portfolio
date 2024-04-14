@@ -12,7 +12,8 @@ export default function About() {
         solving. I am the go-to person when it comes to figuring out why certain
         things do not work, and I enjoy taking the time to help others resolve
         their issues.
-        
+        <br>
+        </br>
         Jumping into this field was intimidating at first, but the
         more I have learned through the Bootcamp, the more exciting all of this
         has become! It has been quite an exciting journey so far, and I look

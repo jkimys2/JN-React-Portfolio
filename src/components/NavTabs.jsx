@@ -1,9 +1,11 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
+    
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
